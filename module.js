@@ -61,7 +61,7 @@ module.exports = function(RED) {
             agiHandler.command('GET DATA "' + song + ' "', function(code, result, data, song) {
               console.log(code, result, data, song);
               });
-            });
+            }
             agiHandler.command('SAY DIGITS "' + result + '" "0"', function(code, result, data) {
               console.log(code, result, data);
               agiHandler.command('HangUp', function() {
