@@ -1,6 +1,6 @@
 {
   "name": "node-red-contrib-asterisk-pd2emc",
-  "version": "0.0.3b",
+  "version": "0.0.3.1",
   "description": "Node-RED contribution to work with the asterisk server",
   "main": "module.js",
   "scripts": {
