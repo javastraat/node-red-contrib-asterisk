@@ -106,7 +106,7 @@ module.exports = function(RED) {
     });
 
   }
-  RED.nodes.registerType("asterisk-in", AsteriskInputNode);
+  RED.nodes.registerType("asterisk-line-in", AsteriskInputNode);
 
 
 
