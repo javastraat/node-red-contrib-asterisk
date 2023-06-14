@@ -22,7 +22,7 @@
         "asterisk-in": "module.js"
      }
   },
-  "author": "Stefan Koch <stefan@voodoohome.org>",
+  "author": "Stefan Koch <stefan@voodoohome.org> edit by PD2EMC",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
     "url": "https://github.com/javastraat/node-red-contrib-asterisk/issues"
