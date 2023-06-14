@@ -60,6 +60,9 @@ module.exports = function(RED) {
             callbacks[result](result,agiHandler);
             agiHandler.command('SAY DIGITS "' + result + '" "0"', function(code, result, data) {
               console.log(code, result, data);
+              });
+            agiHandler.command('SAY DIGITS "' + result + '" "0"', function(code, result, data) {
+              console.log(code, result, data);
               agiHandler.command('HangUp', function() {
                 // hangup the channel, this will raise hangup and close event
               });
