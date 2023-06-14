@@ -1,5 +1,5 @@
 {
-  "name": "node-red-contrib-asterisk",
+  "name": "node-red-contrib-asterisk-pd2emc",
   "version": "0.0.3",
   "description": "Node-RED contribution to work with the asterisk server",
   "main": "module.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/voodoohome/node-red-contrib-asterisk.git"
+    "url": "git+https://github.com/javastraat/node-red-contrib-asterisk.git"
   },
   "dependencies": {
     "asterisk.io": "0.1.1"
@@ -25,7 +25,7 @@
   "author": "Stefan Koch <stefan@voodoohome.org>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/voodoohome/node-red-contrib-asterisk/issues"
+    "url": "https://github.com/javastraat/node-red-contrib-asterisk/issues"
   },
-  "homepage": "https://github.com/voodoohome/node-red-contrib-asterisk#readme"
+  "homepage": "https://github.com/javastraat/node-red-contrib-asterisk#readme"
 }
