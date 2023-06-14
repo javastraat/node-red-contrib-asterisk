@@ -56,11 +56,14 @@
 
 
 <script type="text/javascript">
-  RED.nodes.registerType('asterisk-in', {
+  RED.nodes.registerType('asterisk-line-in', {
     category: 'input',
     color: '#F78B39',
     defaults: {
       name: {
+        value: ""
+      },
+      code: {
         value: ""
       },
       code: {
