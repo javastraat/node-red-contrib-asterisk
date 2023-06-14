@@ -54,12 +54,12 @@ module.exports = function(RED) {
       // answer the channel
       agiHandler.command('Answer', function(code, result, data) {
 
-        agiHandler.command('GET DATA "beep"', function(code, result, data) {
-          console.log(code, result, data);
+        agiHandler.command('GET DATA "beep"', function(code, result, data, song) {
+          console.log(code, result, data, song);
           if (code == 200 && result && result in callbacks) {
             callbacks[result](result,agiHandler);
-            agiHandler.command('SAY DIGITS "' + result + '" "0"', function(code, result, data) {
-              console.log(code, result, data);
+            agiHandler.command('GET DATA "' + song + ' "', function(code, result, data, song) {
+              console.log(code, result, data, song);
               });
             agiHandler.command('SAY DIGITS "' + result + '" "0"', function(code, result, data) {
               console.log(code, result, data);
